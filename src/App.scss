@@ -1,0 +1,46 @@
+@import '~assets/style/_variables';
+
+.App {
+  position: relative;
+  height: 100%;
+  background-color: #f0f1f2;
+
+  padding-top: $search-height;
+
+  .App-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    padding: 0;
+    background: white;
+    margin-bottom: 16px;
+    z-index: 1;
+
+    box-shadow: 0px 3px 16px -8px $color-black-87;
+  }
+
+  .App-content {
+    padding: 24px 24px 48px 24px;
+
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+
+  .App-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    padding: 8px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

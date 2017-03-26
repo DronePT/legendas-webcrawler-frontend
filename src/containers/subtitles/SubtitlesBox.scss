@@ -1,0 +1,17 @@
+@import '~assets/style/_variables';
+
+.SubtitlesBox {
+   border-radius: $app-radius;
+
+   .Subtitle {
+     &:first-child {
+       border-top-left-radius: $app-radius;
+       border-top-right-radius: $app-radius;
+     }
+
+     &:last-child {
+       border-bottom-left-radius: $app-radius;
+       border-bottom-right-radius: $app-radius;
+     }
+   }
+}

@@ -1,0 +1,27 @@
+@import '~assets/style/_variables';
+
+.Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: $footer-height;
+
+    > span {
+        font-size: 0.85em;
+
+        color: $color-black-54;
+
+        > a {
+            text-decoration: none;
+            color: $color-black-87;
+            margin-left: 4px;
+        }
+    }
+
+    .divider {
+        height: 16px;
+        width: 1px;
+        background-color: $color-black-54;
+        margin: 0 8px;
+    }
+}

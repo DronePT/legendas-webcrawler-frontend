@@ -1,0 +1,41 @@
+@import '~assets/style/_variables';
+
+.Search {
+    // position: absolute;
+    // left: 0;
+    // top: 0;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: $search-height;
+
+    padding: 0 16px;
+
+    > span {
+      flex: 1;
+
+        > input {
+          font-size: 1.8em;
+          color: $color-light-dark;
+          background-color: transparent;
+          border: none;
+          width: 100%;
+          outline: none;
+        }
+    }
+
+    > a {
+        color: $color-light-dark;
+
+        &:hover {
+            color: $color-darker;
+        }
+
+        > i {
+            font-size: 32px;
+        }
+    }
+}

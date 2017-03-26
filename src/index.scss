@@ -1,0 +1,44 @@
+// @import '~antd/dist/antd.css';
+
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+@import '~assets/style/_variables';
+
+html, body, #root {
+  height: 100%;
+  // overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  /* general font settings */
+  font-family: 'Archivo Narrow', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  color: $color-darker;
+}
+
+body, td, input, select, textarea {
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+::selection {
+  background: $color-blue;
+  color: $color-white;
+}
+::-moz-selection {
+  background: $color-blue;
+  color: $color-white;
+}
